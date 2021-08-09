@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'OpenSans-bold';
+    src: url('../fonts/OpenSans/OpenSans-Bold.eot');
+    src: url('../fonts/OpenSans/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans/OpenSans-Bold.woff2') format('woff2'),
+        url('../fonts/OpenSans/OpenSans-Bold.woff') format('woff'),
+        url('../fonts/OpenSans/OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans-semiItalic';
+    src: url('../fonts/OpenSans/OpenSans-SemiBoldItalic.eot');
+    src: url('../fonts/OpenSans/OpenSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans/OpenSans-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/OpenSans/OpenSans-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/OpenSans/OpenSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'OpenSans-semi';
+    src: url('../fonts/OpenSans/OpenSans-SemiBold.eot');
+    src: url('../fonts/OpenSans/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans/OpenSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/OpenSans/OpenSans-SemiBold.woff') format('woff'),
+        url('../fonts/OpenSans/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans-light';
+    src: url('../fonts/OpenSans/OpenSans-LightItalic.eot');
+    src: url('../fonts/OpenSans/OpenSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans/OpenSans-LightItalic.woff2') format('woff2'),
+        url('../fonts/OpenSans/OpenSans-LightItalic.woff') format('woff'),
+        url('../fonts/OpenSans/OpenSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("../fonts/BebasNeue/BebasNeueBold.eot");
+    src: url("../fonts/BebasNeue/BebasNeueBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/BebasNeue/BebasNeueBold.woff2") format("woff2"),
+        url("../fonts/BebasNeue/BebasNeueBold.woff") format("woff"),
+        url("../fonts/BebasNeue/BebasNeueBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
