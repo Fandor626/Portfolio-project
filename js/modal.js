@@ -196,8 +196,6 @@ function enableButton() {
         document.getElementById("submit").style.border="1px solid #6638ff";
     } else {
         document.getElementById("submit").style.pointerEvents = "none";
-        document.getElementById("submit").style.backgroundColor="red";
-        document.getElementById("submit").style.border="1px solid red";
     }
 }
 //timer
