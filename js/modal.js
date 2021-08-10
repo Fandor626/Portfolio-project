@@ -190,14 +190,18 @@ function validateNum() {
     }
 }
 function enableButton() {
-    if (checkName == true && checkPass == true && checkEmail == true) {
+    if (checkName === true && checkPass === true && checkEmail === true) {
         document.getElementById("submit").style.pointerEvents = "visible";
+        document.getElementById("submit").style.backgroundColor="#6638ff";
+        document.getElementById("submit").style.border="1px solid #6638ff";
     } else {
         document.getElementById("submit").style.pointerEvents = "none";
+        document.getElementById("submit").style.backgroundColor="red";
+        document.getElementById("submit").style.border="1px solid red";
     }
 }
 //timer
-const deadline = '2021-08-10';
+const deadline = '2021-08-12';
 function getTime(endtime) {
     const t = Date.parse(endtime) - Date.parse(new Date()),
         days = Math.floor(t / (1000 * 60 * 60 * 24)),

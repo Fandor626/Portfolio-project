@@ -271,11 +271,11 @@ footer h2 {
   margin: 0 auto;
 }
 
-footer h3 {
+h3 {
   padding-bottom: 1em;
 }
 
-footer h4 {
+h3 h4 {
   padding-top: 1em;
   padding-bottom: 4em;
 }
@@ -501,8 +501,8 @@ form .left__links {
   color: white;
   margin-top: 2em;
   margin-bottom: 2em;
-  background-color: #6638ff;
-  border: 1px solid #6638ff;
+  background-color: red;
+  border: 1px solid red;
   border-radius: 5px;
 }
 
@@ -582,6 +582,16 @@ login-label {
   height: auto;
 }
 
+footer h4 {
+  padding-top: 2em;
+}
+
+.left__head {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 @media (max-width: 425px) {
   h4 {
     font-size: 15px;
@@ -592,6 +602,9 @@ login-label {
   }
   .modal-btn {
     margin-bottom: 2em;
+  }
+  .timer-block {
+    padding: 0 5px 0 5px;
   }
 }
 
@@ -618,5 +631,11 @@ login-label {
 @media (max-width: 1024px) {
   .my__modal-content {
     max-width: 80%;
+  }
+}
+
+@media (max-width: 375px) {
+  .left__head a {
+    padding-top: 1em;
   }
 }
